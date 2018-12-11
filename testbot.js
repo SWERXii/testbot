@@ -14,6 +14,7 @@ client.on('message', message => {
     var msg = message.content.toLocaleUpperCase();
 
     // Return statements
+    {
     if (message.author.bot) return;                     // Bot ignore
     if (!message.content.startsWith(prefix)) return;    // No prefix ignore
 
@@ -26,9 +27,9 @@ client.on('message', message => {
     } catch (e) {
         console.log(e.stack);
     }
-
+    }
     if (sender.id === '522092594726174721') {
-         return;
+        return;
     }
     if (msg.includes('NIGGA') || (msg.includes('NIGGER') || (msg.includes('NIBBA')))) {
         message.channel.send(message.author + ' _has been banned due to tosic behaviour_')
