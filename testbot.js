@@ -10,7 +10,7 @@ client.on('message', message => {
     var sender = message.author;
     var msg = message.content.toLocaleUpperCase();
 
-    if (sender.id === '521820814551678976') {
+    if (sender.id === '522092594726174721') {
         return;
     }
     if (msg.includes('NIGGA') || (msg.includes('NIGGER') || (msg.includes('NIBBA')))) {
